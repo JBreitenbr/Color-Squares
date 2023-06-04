@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Color-Squares/static/css/main.e5b17f28.css",
+    "main.css": "/Color-Squares/static/css/main.fdbc4fac.css",
     "main.js": "/Color-Squares/static/js/main.f9309756.js",
     "static/js/787.d98b2444.chunk.js": "/Color-Squares/static/js/787.d98b2444.chunk.js",
     "index.html": "/Color-Squares/index.html",
-    "main.e5b17f28.css.map": "/Color-Squares/static/css/main.e5b17f28.css.map",
+    "main.fdbc4fac.css.map": "/Color-Squares/static/css/main.fdbc4fac.css.map",
     "main.f9309756.js.map": "/Color-Squares/static/js/main.f9309756.js.map",
     "787.d98b2444.chunk.js.map": "/Color-Squares/static/js/787.d98b2444.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5b17f28.css",
+    "static/css/main.fdbc4fac.css",
     "static/js/main.f9309756.js"
   ]
 }
