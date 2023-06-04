@@ -5,9 +5,8 @@ import {decConv,Brightness} from './Brightness.js'
 import {complDic,compl} from './Compl.js'
 export default function App() {
 
-
-const [hexValue,setHexValue]=useState("")
-  const [isDarkText,setIsDarkText]=useState(true);  
+const [hexValue,setHexValue]=useState("#453456")
+  const [isDarkText,setIsDarkText]=useState(false);  
 const [isDarkText2,setIsDarkText2]=useState(true);
   return (
     <main>
@@ -25,7 +24,7 @@ const [isDarkText2,setIsDarkText2]=useState(true);
             <input
                 autoFocus
                 type="text" 
-                placeholder="Add color name (hex code)"
+                placeholder="Add a color name (hex code)"
                 required
                 value={hexValue}
                 onChange={(e) => {
@@ -38,7 +37,7 @@ let br2=Brightness(compl(e.target.value)); if(br2<130){setIsDarkText2(false);}
     else{setIsDarkText2(true)};      
                 }}
             />
-
+<label> Add a hex color</label>
         </form>
     </main>
   )
