@@ -6,7 +6,7 @@ import {complDic,compl} from './Compl.js'
 import {randomColor} from './randomColor.js'
 export default function App() {
 
-const [hexValue,setHexValue]=useState("#453456")
+const [hexValue,setHexValue]=useState("#ffffff")
 
 const handleClick=()=>{
   let val=randomColor();
